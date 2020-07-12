@@ -2,18 +2,18 @@ import React from "react";
 import "./style.css";
 
 function NavTabs() {
-  return (
-    <>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container">
-        <a className="navbar-brand text-uppercase" href="/">Wild & Clicky</a>
-        <h4 className="navbar-text">
-          Score: {this.props.score} | Top Score: {this.props.topScore}
-        </h4>
-      </div>
-    </nav>
-  </>
-  );
+    return (
+        <>
+            <nav className="navbar">
+                <div className="container-fluid">
+                    <p className="navbar-text">
+                    Click away! But don't click on the same animal twice...
+                        {/* Score: {this.props.score} | Top Score: {this.props.topScore} */}
+                    </p>
+                </div>
+            </nav>
+        </>
+    );
 }
 
 export default NavTabs;

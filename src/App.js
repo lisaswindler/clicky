@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import AnimalCard from "./components/AnimalCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-// import Nav from "./components/Nav";
+import Nav from "./components/Nav";
 import animals from "./animals.json";
 
 class App extends Component {
@@ -34,15 +34,7 @@ class App extends Component {
     render() {
         return (
             <Wrapper>
-                <>
-                    <nav className="navbar">
-                        <div className="container-fluid">
-                            <p className="navbar-text">
-                                Score: {this.props.score} | Top Score: {this.props.topScore}
-                            </p>
-                        </div>
-                    </nav>
-                </>
+                <Nav score={this.state.correctGuesses} topScore={this.state.bestScore} />
                 <Title>Wild & Clicky</Title>
                 {this.state.animals.map(animal => (
                     <AnimalCard
