@@ -2,73 +2,73 @@
   {
     "id": 1,
     "name": "cheetah",
-    "image": "/images/cheetah.jpg",
+    "image": "./images/cheetah.jpg",
     "clicked": false
   },
   {
     "id": 2,
     "name": "elephant",
-    "image": "/images/elephant.jpg",
+    "image": "./images/elephant.jpg",
     "clicked": false
   },
   {
     "id": 3,
     "name": "lion",
-    "image": "/images/lion.jpg",
+    "image": "./images/lion.jpg",
     "clicked": false
   },
   {
     "id": 4,
     "name": "big horn sheep",
-    "image": "/images/big-horn-sheep.jpg",
+    "image": "../images/big-horn-sheep.jpg",
     "clicked": false
   },
   {
     "id": 5,
     "name": "giraffe",
-    "image": "/images/giraffe.jpg",
+    "image": "./images/giraffe.jpg",
     "clicked": false
   },
   {
     "id": 6,
     "name": "zebra",
-    "image": "/images/zebra.jpg",
+    "image": "./images/zebra.jpg",
     "clicked": false
   },
   {
     "id": 7,
     "name": "wolf",
-    "image": "/images/wolf.jpg",
+    "image": "./images/wolf.jpg",
     "clicked": false
   },
   {
     "id": 8,
     "name": "hawk",
-    "image": "/images/hawk.jpg",
+    "image": "./images/hawk.jpg",
     "clicked": false
   },
   {
     "id": 9,
     "name": "snow leopard",
-    "image": "/images/snow-leopard.jpg",
+    "image": "./images/snow-leopard.jpg",
     "clicked": false
   },
   {
     "id": 10,
     "name": "owl",
-    "image": "/images/owl.jpg",
+    "image": "./images/owl.jpg",
     "clicked": false
   },
   {
     "id": 11,
     "name": "fox",
-    "image": "/images/fox.jpg",
+    "image": "./images/fox.jpg",
     "clicked": false
   },
   {
     "id": 12,
     "name": "raccoon",
-    "image": "/images/raccoon.jpg",
+    "image": "./images/raccoon.jpg",
     "clicked": false
   }
 ]

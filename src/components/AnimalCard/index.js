@@ -1,14 +1,21 @@
 import React from "react";
 import "./style.css";
 
-function FriendCard(props) {
-  return (
-    <div className="card">
-      <div className="img-container" id={props.id}>
-        <img alt={props.name} src={props.image}/>
-      </div>
-    </div>
-  );
+class FriendCard extends React.Component {
+
+    clickOnAnimal = () => {
+        this.props.handleOnClick(this.props.id)
+    };
+
+    render() {
+        return (
+            <div className="card">
+                <div className="img-container" id={this.props.id}>
+                    <img alt={this.props.name} src={this.props.image} onClick={this.clickOnAnimal}/>
+                </div>
+            </div>
+        );
+    }
 }
 
 export default FriendCard;
