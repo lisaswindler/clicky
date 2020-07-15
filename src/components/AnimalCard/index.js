@@ -3,15 +3,15 @@ import "./style.css";
 
 class FriendCard extends React.Component {
 
-    clickOnAnimal = () => {
+    animalOnClick = () => {
         this.props.handleOnClick(this.props.id)
-    };
+     };
 
     render() {
         return (
-            <div className="card">
-                <div className="img-container" id={this.props.id}>
-                    <img alt={this.props.name} src={this.props.image} onClick={this.clickOnAnimal}/>
+            <div className="card hvr-grow">
+                <div className="img-container" onClick={this.animalOnClick} id={this.props.name}>
+                    <img alt={this.props.name} src={this.props.image}/>
                 </div>
             </div>
         );

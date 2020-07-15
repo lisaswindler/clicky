@@ -20,7 +20,7 @@
   {
     "id": 4,
     "name": "big horn sheep",
-    "image": "../images/big-horn-sheep.jpg",
+    "image": "./images/big-horn-sheep.jpg",
     "clicked": false
   },
   {
